@@ -16,6 +16,7 @@
 body {
   display: flex;
   justify-content: center;
+  margin: 0px;
 }
 
 .main-container {
@@ -119,6 +120,47 @@ a {
 
 .populaires-cards .card-rating {
   margin-bottom: 5px;
+}
+
+/* Header */
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 79px;
+}
+
+.logo img {
+  max-height: 19px;
+  width: auto;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  align-items: flex-start;
+  list-style: none;
+  display: flex;
+  gap: 68px;
+  margin: 0;
+  padding: 0;
+}
+
+.menu a {
+  text-decoration: none;
+  padding-top: 14px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+  border-top: 2px solid transparent;
+}
+
+.menu a:hover {
+  color: #007bff;
+  border-top: 2px solid #007bff;
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
